@@ -1,10 +1,12 @@
 import React from "react";
+import { BrowserRouter } from "react-router-dom";
+import Navigator from "./navigation/Navigator";
 
 export default function App() {
     return (
-        <h1 className="text-surface-low font-poppins">
-          Hello world!
-        </h1>
+        <BrowserRouter>
+            <Navigator />
+        </BrowserRouter>
     );
 }
 
