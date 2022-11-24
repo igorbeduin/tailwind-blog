@@ -3,7 +3,7 @@ import { Outlet, Link } from "react-router-dom";
 
 export default function PageMask() {
     return (
-        <div className="flex flex-col justify-start items-center bg-back min-h-screen h-fit">
+        <div className="flex flex-col justify-start items-center bg-back min-h-screen h-fit font-poppins">
             <header className="flex justify-between bg-surface h-28 w-10/12 text-surface-low">
                 <section>
                     <nav className="flex justify-evenly">
