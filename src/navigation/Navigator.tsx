@@ -14,7 +14,8 @@ export default function Navigator() {
                 <Route path="blog" element={<Blog />}/>
                 <Route path="bookmarks" element={<BlankPage/>} />
                 <Route path="ui-kit" element={<BlankPage />} />
-                <Route path="other" element={<BlankPage />}/>
+                <Route path="lain-nya" element={<BlankPage />}/>
+                <Route path="*" element={<BlankPage />} />
             </Route>
         </Routes>
     );
