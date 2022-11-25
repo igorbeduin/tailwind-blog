@@ -23,7 +23,8 @@ module.exports = {
             surface: "#121212",
             base: "#FFFFFF",
             "surface-low": "#888888",
-            "border-dark": "#202020"
+            "divider-dark": "#202020",
+            "divider-light": "#EAEAEA"
         }
     },
     plugins: [],
